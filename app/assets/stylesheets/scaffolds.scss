@@ -61,5 +61,26 @@ div.actions {
   font-size: 12px;
   list-style: square; }
 
-label {
-  display: block; }
+.label {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 110%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.35em; }
+
+.label-success {
+    background-color: #5cb85c;
+}
+
+.label-warning {
+  background-color: #f0ad4e;
+}
+
+.label-danger {
+  background-color: #d9534f;
+}

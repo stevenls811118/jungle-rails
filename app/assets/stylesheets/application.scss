@@ -111,3 +111,20 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+
+.alert {
+  font-size: 1.1em;
+  display: flex;
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-info {
+  color: #055160;
+  background-color: #cff4fc;
+  border-color: #b6effb;
+  justify-content: center;
+}
